@@ -1,0 +1,26 @@
+header {
+    background-color: $headerBack;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: $logoPadTop $logoPadRig $logoPadBot $logoPadLef;
+    height: $logoHei;
+}
+
+.headRight {
+    padding: $logoPadTop $logoPadRig $logoPadBot $logoPadLef;
+    display: flex;
+    align-items: center;
+}
+
+.userCirc {
+    padding: 0px 24px;
+}
+
+.button {
+    padding: 16px 40px;
+}

@@ -1,0 +1,124 @@
+// Setting up responsive media queries
+$layout-breakpoint-small-header: 551px; //Tablet
+
+@media (max-width: $layout-breakpoint-small-header) {
+  header {
+    background-color: #0A141C;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+
+@media (min-width: $layout-breakpoint-small-header) {
+    .action {
+        display: flex;
+        background: linear-gradient(360deg, $gradientOne, $gradientTwo);
+        text-align: center;
+        color: #fff;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100%;
+        margin-top: -0.5px;
+    }
+}
+
+
+@media (max-width: $layout-breakpoint-small-header) {
+    .action {
+        background: linear-gradient(360deg, #5a057a, #8416ac);
+        text-align: center;
+        color: #fff;
+        height: 100vh;
+        margin-top: -0.5px;
+        position: sticky;
+    }
+}
+
+
+
+@media (min-width: $layout-breakpoint-small-header) {
+    .actionImage {
+        background-image: $heroImageGradient;
+        display: flex;
+        height: 100%;
+        background-repeat: no-repeat;
+        align-content: center;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+        background-size: contain;
+        height: 1300px;
+        background-position: center;
+        width: 750px;
+    }
+}
+
+@media (min-width: $layout-breakpoint-small-header) and (max-width: 750px) {
+    .actionImage {
+        background-image: $heroImageGradient;
+        display: flex;
+        height: 100%;
+        background-repeat: no-repeat;
+        align-content: center;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+        background-size: 100% auto;
+        height: 956px;
+        background-position: center;
+        width: 750px;
+    }
+}
+
+@media (max-width: $layout-breakpoint-small-header) {
+    .actionImage {
+        background-image: $heroImageGradient;
+        background-size: 100% auto;
+        background-position: top;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+    }
+    .price {
+        font-size: 65px;
+    }
+    
+    .title{
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .actionImage {
+        background-image: $heroImageGradient;
+        background-size: 100% auto;
+        background-position: top;
+        height: 83vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-repeat: no-repeat;
+    }
+    .action {
+        height: 83vh;
+    }
+    .callToAction {
+        margin-bottom: 30px;
+    }
+
+    .price {
+        font-size: 65px;
+    }
+    
+    .title{
+        font-size: 30px;
+    }
+}
+

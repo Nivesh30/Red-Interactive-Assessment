@@ -1,0 +1,31 @@
+.actionImage {
+    background-image: linear-gradient(180deg, $gradientActOne, $gradientActTwo), url('../assets/images/Hero-Image.jpg');
+    .button {
+        padding: 25px 50px;
+        font-size: 20px;
+    }
+}
+
+.callToAction {
+    margin-bottom: 150px;
+}
+
+#data-container {
+    margin-bottom: 50px;
+}
+
+.price {
+    font-family: Akatab;
+    font-weight: 900;
+    font-size: 85px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title{
+    font-family: Akatab;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}

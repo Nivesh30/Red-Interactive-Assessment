@@ -1,0 +1,19 @@
+{
+  "name": "red-interactive",
+  "version": "1.0.0",
+  "description": "assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "red interactive"
+  },
+  "author": "Nivesh",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}

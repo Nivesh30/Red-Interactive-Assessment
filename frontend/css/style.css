@@ -1,0 +1,180 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", serif;
+}
+
+.button {
+  background: linear-gradient(360deg, #5a057a, #8416ac);
+  font-family: "Inter", serif;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+header {
+  background-color: #0A141C;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 17px 23px 17px 23px;
+  height: 70px;
+}
+
+.headRight {
+  padding: 17px 23px 17px 23px;
+  display: flex;
+  align-items: center;
+}
+
+.userCirc {
+  padding: 0px 24px;
+}
+
+.button {
+  padding: 16px 40px;
+}
+
+.actionImage {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3137254902)), url("../assets/images/Hero-Image.jpg");
+}
+.actionImage .button {
+  padding: 25px 50px;
+  font-size: 20px;
+}
+
+.callToAction {
+  margin-bottom: 150px;
+}
+
+#data-container {
+  margin-bottom: 50px;
+}
+
+.price {
+  font-family: Akatab;
+  font-weight: 900;
+  font-size: 85px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.title {
+  font-family: Akatab;
+  font-weight: 900;
+  font-size: 50px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+@media (max-width: 551px) {
+  header {
+    background-color: #0A141C;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+@media (min-width: 551px) {
+  .action {
+    display: flex;
+    background: linear-gradient(360deg, #5a057a, #8416ac);
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    margin-top: -0.5px;
+  }
+}
+@media (max-width: 551px) {
+  .action {
+    background: linear-gradient(360deg, #5a057a, #8416ac);
+    text-align: center;
+    color: #fff;
+    height: 100vh;
+    margin-top: -0.5px;
+    position: sticky;
+  }
+}
+@media (min-width: 551px) {
+  .actionImage {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.88)), url(../assets/images/Hero-Image.jpg);
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    background-size: contain;
+    height: 1300px;
+    background-position: center;
+    width: 750px;
+  }
+}
+@media (min-width: 551px) and (max-width: 750px) {
+  .actionImage {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.88)), url(../assets/images/Hero-Image.jpg);
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    background-size: 100% auto;
+    height: 956px;
+    background-position: center;
+    width: 750px;
+  }
+}
+@media (max-width: 551px) {
+  .actionImage {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.88)), url(../assets/images/Hero-Image.jpg);
+    background-size: 100% auto;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+  }
+  .price {
+    font-size: 65px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .actionImage {
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.88)), url(../assets/images/Hero-Image.jpg);
+    background-size: 100% auto;
+    background-position: top;
+    height: 83vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+  }
+  .action {
+    height: 83vh;
+  }
+  .callToAction {
+    margin-bottom: 30px;
+  }
+  .price {
+    font-size: 65px;
+  }
+  .title {
+    font-size: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

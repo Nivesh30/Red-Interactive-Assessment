@@ -1,0 +1,32 @@
+// Setting variables
+$gradientOne : #5a057a;
+$gradientTwo : #8416ac;
+$headerBack : #0A141C;
+$logoPadTop : 17px;
+$logoPadBot : 17px;
+$logoPadLef : 23px;
+$logoPadRig : 23px;
+$logoHei : 70px;
+$heroImageGradient : linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0), rgb(0, 0, 0, 0.72),  rgb(0, 0, 0, 0.88)), url(../assets/images/Hero-Image.jpg);
+$gradientActOne : #ffffff00;
+$gradientActTwo : #00000050;
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", serif;
+}
+
+.button {
+    background: linear-gradient(360deg, $gradientOne, $gradientTwo);
+    font-family: "Inter", serif;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+@import 'parts/header';
+@import 'parts/calltoaction';
+@import 'parts/responsive';
