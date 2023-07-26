@@ -16,3 +16,13 @@ Not a requirement, but will give yourself an edge:
 -	Use VueJS as the frontend framework – we recommend using Vite for your build tooling
 -	Utilise a CSS pre-processor such as SASS
 -	Responsive UI for Mobile/tablet/desktop
+
+#API
+Start:
+In server.js folder run 
+node server.js
+
+#Frontend
+Start:
+Open frontend folder
+Open index.html
